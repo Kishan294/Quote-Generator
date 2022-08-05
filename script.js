@@ -26,7 +26,7 @@ newQuote = () => {
         authorText.textContent = 'Unknown'
     }
     else {
-        authorText.textContent = quote.author;
+        authorText.textContent = `- ${quote.author}`;
     }
 
     if (quote.text.length > 50) {
@@ -37,7 +37,7 @@ newQuote = () => {
     }
 
     // Set Quote, Hide Loader
-    quoteText.textContent = quote.text;
+    quoteText.textContent = `"${quote.text}"`;
     removeLoadingSpinner();
 }
 
