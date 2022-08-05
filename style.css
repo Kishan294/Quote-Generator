@@ -25,12 +25,11 @@ body {
 
 h2{
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .quote-container {
-    width: auto;
-    /* max-width: 900px; */
-    width: 900px;
+    max-width: 900px;
     padding: 20px 30px;
     background: rgba(255, 255, 255, 0.26);
     border: 1px solid #FFFFFF;
@@ -117,7 +116,7 @@ button:active {
 
 @media screen and (max-width: 1000px) {
     .quote-container {
-        margin: auto 20px;
+        margin: 20px;
     }
 
     .quote-text {
